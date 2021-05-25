@@ -17,5 +17,6 @@ while True:
             print(data)
             toast_message = "hospital-"+data[0]+", Date-"+data[1]+", Pin Code: "+data[2]
             toaster.show_toast("Vaccine Available",toast_message)
+            sleep(10)
             pincode.remove(each)
-    sleep(5)
+    sleep(60)
